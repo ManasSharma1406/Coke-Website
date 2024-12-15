@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Aqi;
+    src: url(Parkinsans-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: Aqi;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav {
+    height: 110px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding: 0 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    justify-content: space-between;
+    width: 60%;
+    margin-left: -92px;
+}
+
+#nav h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+#nav>i {
+    font-size: 20px;
+}
+
+#nav h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#nav img {
+    height: 90px;
+}
+
+#line {
+    width: 80px;
+    height: 3px;
+    background-color: red;
+}
+
+#content {
+    height: calc(100% - 110px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    width: 36%;
+    height: 100%;
+    padding: 160px 26px;
+
+}
+
+#left h1 {
+    font-size: 65px;
+    line-height: 60px;
+}
+
+#left p {
+    font-size: 17px;
+    width: 94%;
+    margin-top: 40px;
+    line-height: 24px;
+
+}
+
+#left h1 span {
+    font-weight: 400;
+    color: red;
+}
+
+#left button {
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 8vw;
+    border: 0px;
+}
+
+#right {
+    width: 36%;
+    height: 100%;
+    padding: 300px 100px;
+    /* background-color: rgb(0, 255, 123); */
+}
+
+#center {
+    width: 28%;
+    height: 100%;
+    padding: 60px 0px;
+    /* background-color: rgb(200, 255, 0); */
+}
+
+#centerbg {
+    height: 95%;
+    width: 100%;
+    /* background-color: blue; */
+    background-position: center;
+    filter: blur(3px);
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://www.shagcarpetprops.com/v/vspfiles/photos/10287-2.png?v-cache=1590752469);
+}
+
+#content>img{
+    height: 100%;
+    position:absolute ;
+    left: 52%;
+    top: 5%;
+/* bottom: .1%; */
+    transform: translate(-50%,0);
+    filter: drop-shadow(4px 5px 9px rgb(47, 4, 4));
+}
+
+#rightelem{
+    /* background-color: #fa0000; */
+    width: 400px;
+
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 70px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+#elem1 i{
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.4;
+}
